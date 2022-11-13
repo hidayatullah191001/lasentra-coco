@@ -1,0 +1,22 @@
+.floating-wa {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50%;
+    border: 0;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.floating-wa:hover{
+    background-color: green;
+}
